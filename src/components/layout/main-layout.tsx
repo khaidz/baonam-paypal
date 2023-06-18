@@ -40,9 +40,9 @@ const MainLayout: FC<Props> = ({ children }) => {
                 component="div"
                 sx={{
                   fontWeight: 'bold',
-                  height: '100%',
                   width: { xs: '100%', md: '90%' },
                   display: 'flex',
+                  alignItems: 'center',
                   flexDirection: 'row',
                   justifyContent: { xs: 'end' },
                 }}
