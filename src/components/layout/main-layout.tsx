@@ -4,6 +4,7 @@ import { Footer } from '@/components/footer'
 import { Header } from '@/components/header'
 import Grid from '@mui/material/Grid'
 import Container from '@mui/material/Container'
+import Rating from '@mui/material/Rating'
 interface Props {
   children: ReactNode
 }
@@ -35,6 +36,21 @@ const MainLayout: FC<Props> = ({ children }) => {
                 data-mobile="true"
                 data-numposts="10"
               ></Box>
+              <Box
+                component="div"
+                sx={{
+                  fontWeight: 'bold',
+                  height: '100%',
+                  width: { xs: '100%', md: '90%' },
+                  display: 'flex',
+                  alignItems: 'end',
+                  flexDirection: 'row',
+                  justifyContent: { xs: 'end' },
+                }}
+              >
+                <Rating name="no-value" value={5} size="large" />
+                <span>5/5 - (503 bình chọn)</span>
+              </Box>
             </Grid>
           </Grid>
         </Container>
