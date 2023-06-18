@@ -31,6 +31,19 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
       <Head>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <title>Dịch vụ mua bán Paypal uy tín số 1 tại Việt Nam</title>
+        <meta
+          name="description"
+          content="Chuyên mua bán tiền $ Paypal VN rate tốt nhất, giao dịch online 24/24. Thu mua paypal số lượng lớn uy tín, không lừa đảo.."
+        />
+        <meta property="og:locale" content="vi_VN" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Dịch Vụ Mua Bán Paypal Uy Tín Số #1 Việt Nam Tỉ Giá Tốt" />
+        <meta
+          property="og:description"
+          content="Chuyên mua bán tiền $ Paypal VN rate tốt nhất, giao dịch online 24/24. Thu mua paypal số lượng lớn uy tín, không lừa đảo.."
+        />
+        <meta property="og:url" content="https://baonam-paypal.vercel.com/" />
+        <meta property="og:site_name" content="Mua bán Paypal online uy tín nhất tại MuaBanDoLa.Online" />
       </Head>
       <MUIProvider>
         {/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
