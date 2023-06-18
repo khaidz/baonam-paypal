@@ -12,6 +12,13 @@ const MainLayout: FC<Props> = ({ children }) => {
     <Box component="main">
       <Header />
       {children}
+      <div
+        className="fb-comments"
+        data-href="https://developers.facebook.com/docs/plugins/comments#configurator"
+        data-width="100%"
+        data-mobile="true"
+        data-numposts="10"
+      ></div>
       <Footer />
     </Box>
   )

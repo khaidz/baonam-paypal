@@ -38,7 +38,15 @@ class MyDocument extends Document<DocumentProps> {
           {this.props.emotionStylesTags}
         </Head>
         <body>
+          <div id="fb-root"></div>
           <Main />
+          <script
+            async
+            defer
+            crossOrigin="anonymous"
+            src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v17.0"
+            nonce="ayZCa8Vo"
+          ></script>
           <NextScript />
         </body>
       </Html>
