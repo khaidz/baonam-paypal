@@ -26,9 +26,14 @@ const HomePopularCourse: FC = () => {
                 width: { xs: '100%', md: '90%' },
                 display: 'flex',
                 alignItems: 'center',
+                flexDirection: 'column',
                 justifyContent: { xs: 'center', md: 'flex-start' },
               }}
             >
+              <Typography component="h2" variant="h2" sx={{ color: 'red', lineHeight: 1.6, mb: 2 }}>
+                Liên hệ ngay Zalo: 0788070603
+              </Typography>
+
               <Typography sx={{ color: 'text.secondary', lineHeight: 1.6 }}>
                 MuaBánĐôLa là một Exchange hàng đầu trong lĩnh vực mua bán Paypal. Chuyên cung cấp dịch vụ trao đổi
                 Paypal sang VND uy tín, nhanh chóng, chuyên nghiệp & rate tốt nhất thị trường. Bảo Nguyễn phục vụ tất cả
