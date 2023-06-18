@@ -43,7 +43,6 @@ const MainLayout: FC<Props> = ({ children }) => {
                   height: '100%',
                   width: { xs: '100%', md: '90%' },
                   display: 'flex',
-                  alignItems: 'end',
                   flexDirection: 'row',
                   justifyContent: { xs: 'end' },
                 }}
