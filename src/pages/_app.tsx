@@ -35,6 +35,10 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
           name="description"
           content="Chuyên mua bán tiền $ Paypal VN rate tốt nhất, giao dịch online 24/24. Thu mua paypal số lượng lớn uy tín, không lừa đảo.."
         />
+        <meta
+          name="keywords"
+          content="Mua ban paypal, mua paypal uy tin, paypal gia re, paypal 24h, paypal uy tin, mua ban paypal online"
+        ></meta>
         <meta property="og:locale" content="vi_VN" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Dịch Vụ Mua Bán Paypal Uy Tín Số #1 Việt Nam Tỉ Giá Tốt" />
@@ -44,6 +48,9 @@ const App: FC<AppPropsWithLayout> = (props: AppPropsWithLayout) => {
         />
         <meta property="og:url" content="http://muabandola.com/" />
         <meta property="og:site_name" content="Mua bán Paypal online uy tín nhất tại MuaBanDoLa.Com" />
+        <meta name="revisit-after" content="1 days" />
+        <meta name="copyright" content="Mua Ban Do La" />
+        <meta name="robots" content="FOLLOW,INDEX" />
         <meta name="google-site-verification" content="1FaNhAHGkpXTULP_5kKfD51aRsGA-9R75V92I5mdtzs" />
       </Head>
       <MUIProvider>
